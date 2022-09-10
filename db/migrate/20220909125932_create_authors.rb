@@ -4,7 +4,8 @@ class CreateAuthors < ActiveRecord::Migration[6.1]
       t.string :name
       t.string :category
       t.string :age
-      tt.string :hometown
+      t.string :hometown
+      t.timestamps
     end
   end
 end
