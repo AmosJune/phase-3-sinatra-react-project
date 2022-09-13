@@ -34,7 +34,6 @@ gem "rake", "~> 13.0"
 # Provides functionality to interact with a SQLite3 database
 gem "sqlite3", "~> 1.4"
 
-# gem "pg"
 gem 'sinatra-contrib', '~> 2.2', '>= 2.2.2', require: false
 
 # Require all files in a folder
@@ -57,6 +56,6 @@ group :test do
   gem "rspec-json_expectations", "~> 2.2"
 end
 
-group :production do 
-  gem 'pg', '~> 1.4', '>=1.4.3'
-end
+# group :production do 
+#   gem 'pg', '~> 1.4', '>=1.4.3'
+# end
